@@ -1,0 +1,18 @@
+﻿<Window x:Class="da_passare_a_fabio.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:da_passare_a_fabio"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid Background="#FFB8C7B9">
+        <Label Content="AUTORE" HorizontalAlignment="Left" Margin="55,38,0,0" VerticalAlignment="Top" Height="54" Width="211" FontSize="36"/>
+        <Label Content="TITOLO" HorizontalAlignment="Left" Margin="55,120,0,0" VerticalAlignment="Top" Height="53" Width="211" FontSize="36"/>
+        <Label Content="DURATA" HorizontalAlignment="Left" Margin="55,205,0,0" VerticalAlignment="Top" Height="76" Width="211" FontSize="36"/>
+        <TextBox HorizontalAlignment="Left" Height="42" Margin="297,50,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="258"/>
+        <TextBox HorizontalAlignment="Left" Height="42" Margin="297,131,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="258"/>
+        <TextBox HorizontalAlignment="Left" Height="42" Margin="297,221,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="258"/>
+        <Button Content="AGGIUNGI" HorizontalAlignment="Left" Margin="237,318,0,0" VerticalAlignment="Top" Width="264" Height="54" FontSize="24"/>
+    </Grid>
+</Window>
